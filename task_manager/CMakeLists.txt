@@ -25,6 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         task/task.h
         task/task.cpp
+        navigator/tasknavigator.h
+        navigator/tasknavigator.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET task_manager APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

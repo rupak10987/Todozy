@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "task_manager_autogen/timestamp" "custom" "task_manager_autogen/deps"
   "E:/Projects/Task Manager QT/Todozy/task_manager/main.cpp" "CMakeFiles/task_manager.dir/main.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/main.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/mainwindow.cpp" "CMakeFiles/task_manager.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/mainwindow.cpp.obj.d"
+  "E:/Projects/Task Manager QT/Todozy/task_manager/navigator/tasknavigator.cpp" "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/task/task.cpp" "CMakeFiles/task_manager.dir/task/task.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/task/task.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/task_manager_autogen/mocs_compilation.cpp" "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj.d"
   )

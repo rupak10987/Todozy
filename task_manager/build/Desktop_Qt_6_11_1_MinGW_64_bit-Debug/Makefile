@@ -247,6 +247,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+navigator/tasknavigator.obj: navigator/tasknavigator.cpp.obj
+.PHONY : navigator/tasknavigator.obj
+
+# target to build an object file
+navigator/tasknavigator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj
+.PHONY : navigator/tasknavigator.cpp.obj
+
+navigator/tasknavigator.i: navigator/tasknavigator.cpp.i
+.PHONY : navigator/tasknavigator.i
+
+# target to preprocess a source file
+navigator/tasknavigator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.i
+.PHONY : navigator/tasknavigator.cpp.i
+
+navigator/tasknavigator.s: navigator/tasknavigator.cpp.s
+.PHONY : navigator/tasknavigator.s
+
+# target to generate assembly for a file
+navigator/tasknavigator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.s
+.PHONY : navigator/tasknavigator.cpp.s
+
 task/task.obj: task/task.cpp.obj
 .PHONY : task/task.obj
 
@@ -316,6 +340,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... navigator/tasknavigator.obj
+	@echo ... navigator/tasknavigator.i
+	@echo ... navigator/tasknavigator.s
 	@echo ... task/task.obj
 	@echo ... task/task.i
 	@echo ... task/task.s

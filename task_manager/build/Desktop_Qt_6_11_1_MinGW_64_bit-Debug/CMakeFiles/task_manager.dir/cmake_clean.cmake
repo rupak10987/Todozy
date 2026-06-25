@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/task_manager.dir/main.cpp.obj.d"
   "CMakeFiles/task_manager.dir/mainwindow.cpp.obj"
   "CMakeFiles/task_manager.dir/mainwindow.cpp.obj.d"
+  "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj"
+  "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj.d"
   "CMakeFiles/task_manager.dir/task/task.cpp.obj"
   "CMakeFiles/task_manager.dir/task/task.cpp.obj.d"
   "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj"

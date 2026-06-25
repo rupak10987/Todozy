@@ -389,4 +389,7 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\RU47RH5TZY/moc_tasknavigator.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/navigator/tasknavigator.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QObject
