@@ -319,6 +319,30 @@ task_manager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.s
 .PHONY : task_manager_autogen/mocs_compilation.cpp.s
 
+widget/taskcard.obj: widget/taskcard.cpp.obj
+.PHONY : widget/taskcard.obj
+
+# target to build an object file
+widget/taskcard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj
+.PHONY : widget/taskcard.cpp.obj
+
+widget/taskcard.i: widget/taskcard.cpp.i
+.PHONY : widget/taskcard.i
+
+# target to preprocess a source file
+widget/taskcard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcard.cpp.i
+.PHONY : widget/taskcard.cpp.i
+
+widget/taskcard.s: widget/taskcard.cpp.s
+.PHONY : widget/taskcard.s
+
+# target to generate assembly for a file
+widget/taskcard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcard.cpp.s
+.PHONY : widget/taskcard.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -349,6 +373,9 @@ help:
 	@echo ... task_manager_autogen/mocs_compilation.obj
 	@echo ... task_manager_autogen/mocs_compilation.i
 	@echo ... task_manager_autogen/mocs_compilation.s
+	@echo ... widget/taskcard.obj
+	@echo ... widget/taskcard.i
+	@echo ... widget/taskcard.s
 .PHONY : help
 
 

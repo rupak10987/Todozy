@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "./task/task.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -18,6 +19,7 @@ public:
     ~MainWindow() override;
 
 private:
+    Task* m_root;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

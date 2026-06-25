@@ -358,6 +358,12 @@
 			"MU",
 			"FNLYMPYW64/moc_task.cpp",
 			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcard.h",
+			"MU",
+			"UZBZ344ZLF/moc_taskcard.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -449,6 +455,11 @@
 		],
 		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/task/task.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcard.cpp",
 			"MU",
 			null
 		]

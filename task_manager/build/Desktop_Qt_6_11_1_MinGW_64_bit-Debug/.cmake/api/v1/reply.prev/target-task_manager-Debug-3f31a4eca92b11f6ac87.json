@@ -84,13 +84,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 65,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 48,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -302,7 +302,7 @@
 			{
 				"command" : 17,
 				"file" : 1,
-				"line" : 72,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
@@ -438,18 +438,19 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "task_manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "task_manager_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "task_manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "task_manager::@6890427a1f51a3e7e1df",
@@ -562,7 +563,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				8
 			]
 		},
 		{
@@ -572,7 +574,8 @@
 				3,
 				5,
 				7,
-				9
+				9,
+				11
 			]
 		},
 		{
@@ -586,15 +589,15 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				8,
-				10
+				10,
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				13
 			]
 		}
 	],
@@ -643,6 +646,17 @@
 		{
 			"backtrace" : 4,
 			"path" : "navigator/tasknavigator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "navigator/tasknavigator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "widget/taskcard.h",
 			"sourceGroupIndex" : 1
 		},
 		{
