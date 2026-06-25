@@ -1,5 +1,7 @@
 E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/task_manager_autogen/EWIEGA46WW/moc_mainwindow.cpp: E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.h \
   E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/task_manager_autogen/moc_predefs.h \
+  C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
+  C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20functional.h \
@@ -125,6 +127,7 @@ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_
   C:/Qt/6.11.1/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qvarlengtharray.h \
+  C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qyieldcpu.h \
@@ -374,4 +377,5 @@ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h

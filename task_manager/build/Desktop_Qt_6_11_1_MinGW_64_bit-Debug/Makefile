@@ -247,6 +247,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+navigator/tasknavigator.obj: navigator/tasknavigator.cpp.obj
+.PHONY : navigator/tasknavigator.obj
+
+# target to build an object file
+navigator/tasknavigator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj
+.PHONY : navigator/tasknavigator.cpp.obj
+
+navigator/tasknavigator.i: navigator/tasknavigator.cpp.i
+.PHONY : navigator/tasknavigator.i
+
+# target to preprocess a source file
+navigator/tasknavigator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.i
+.PHONY : navigator/tasknavigator.cpp.i
+
+navigator/tasknavigator.s: navigator/tasknavigator.cpp.s
+.PHONY : navigator/tasknavigator.s
+
+# target to generate assembly for a file
+navigator/tasknavigator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.s
+.PHONY : navigator/tasknavigator.cpp.s
+
 task/task.obj: task/task.cpp.obj
 .PHONY : task/task.obj
 
@@ -295,6 +319,30 @@ task_manager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.s
 .PHONY : task_manager_autogen/mocs_compilation.cpp.s
 
+widget/taskcard.obj: widget/taskcard.cpp.obj
+.PHONY : widget/taskcard.obj
+
+# target to build an object file
+widget/taskcard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj
+.PHONY : widget/taskcard.cpp.obj
+
+widget/taskcard.i: widget/taskcard.cpp.i
+.PHONY : widget/taskcard.i
+
+# target to preprocess a source file
+widget/taskcard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcard.cpp.i
+.PHONY : widget/taskcard.cpp.i
+
+widget/taskcard.s: widget/taskcard.cpp.s
+.PHONY : widget/taskcard.s
+
+# target to generate assembly for a file
+widget/taskcard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcard.cpp.s
+.PHONY : widget/taskcard.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -316,12 +364,18 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... navigator/tasknavigator.obj
+	@echo ... navigator/tasknavigator.i
+	@echo ... navigator/tasknavigator.s
 	@echo ... task/task.obj
 	@echo ... task/task.i
 	@echo ... task/task.s
 	@echo ... task_manager_autogen/mocs_compilation.obj
 	@echo ... task_manager_autogen/mocs_compilation.i
 	@echo ... task_manager_autogen/mocs_compilation.s
+	@echo ... widget/taskcard.obj
+	@echo ... widget/taskcard.i
+	@echo ... widget/taskcard.s
 .PHONY : help
 
 

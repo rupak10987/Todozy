@@ -5,18 +5,14 @@
 #include <QVector>
 class Task
 {
-private:
+public:
     QString id;
     QString name;
-
     QString priority;
     QString duration;
     QString status;
-
     Task* parent;
-
     QVector<Task*> children;
-public:
     Task(QString name);
     ~Task();
     void addChild(Task* child);

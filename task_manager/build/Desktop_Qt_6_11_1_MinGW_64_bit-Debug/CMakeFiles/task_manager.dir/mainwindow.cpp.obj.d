@@ -386,6 +386,10 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/task_manager_autogen/include/ui_mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QApplication \
@@ -409,13 +413,22 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qstatusbar.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
- E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/navigator/tasknavigator.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QObject \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcard.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QVBoxLayout \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlabel.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextdocument.h \
