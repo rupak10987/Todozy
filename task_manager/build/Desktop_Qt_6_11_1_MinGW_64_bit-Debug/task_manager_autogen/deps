@@ -131,6 +131,7 @@ task_manager_autogen/timestamp: \
 	C:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.11.1/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.11.1/mingw_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qbrush.h \
@@ -144,13 +145,16 @@ task_manager_autogen/timestamp: \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qimage.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qkeysequence.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qpaintdevice.h \
+	C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qpalette.h \
+	C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qpixelformat.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qpixmap.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qpolygon.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qregion.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qrgb.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qrgba64.h \
+	C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qtgui-config.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiexports.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiglobal.h \
@@ -159,6 +163,7 @@ task_manager_autogen/timestamp: \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -600,6 +605,8 @@ task_manager_autogen/timestamp: \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/navigator/tasknavigator.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.cpp \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.cpp \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcard.cpp \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcard.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.ui \

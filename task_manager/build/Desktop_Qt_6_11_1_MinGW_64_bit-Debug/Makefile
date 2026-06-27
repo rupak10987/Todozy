@@ -319,6 +319,30 @@ task_manager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.s
 .PHONY : task_manager_autogen/mocs_compilation.cpp.s
 
+widget/taskcanvas.obj: widget/taskcanvas.cpp.obj
+.PHONY : widget/taskcanvas.obj
+
+# target to build an object file
+widget/taskcanvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj
+.PHONY : widget/taskcanvas.cpp.obj
+
+widget/taskcanvas.i: widget/taskcanvas.cpp.i
+.PHONY : widget/taskcanvas.i
+
+# target to preprocess a source file
+widget/taskcanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.i
+.PHONY : widget/taskcanvas.cpp.i
+
+widget/taskcanvas.s: widget/taskcanvas.cpp.s
+.PHONY : widget/taskcanvas.s
+
+# target to generate assembly for a file
+widget/taskcanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.s
+.PHONY : widget/taskcanvas.cpp.s
+
 widget/taskcard.obj: widget/taskcard.cpp.obj
 .PHONY : widget/taskcard.obj
 
@@ -373,6 +397,9 @@ help:
 	@echo ... task_manager_autogen/mocs_compilation.obj
 	@echo ... task_manager_autogen/mocs_compilation.i
 	@echo ... task_manager_autogen/mocs_compilation.s
+	@echo ... widget/taskcanvas.obj
+	@echo ... widget/taskcanvas.i
+	@echo ... widget/taskcanvas.s
 	@echo ... widget/taskcard.obj
 	@echo ... widget/taskcard.i
 	@echo ... widget/taskcard.s
