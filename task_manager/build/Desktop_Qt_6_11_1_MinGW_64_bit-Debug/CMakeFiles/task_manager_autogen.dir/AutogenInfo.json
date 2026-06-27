@@ -360,6 +360,12 @@
 			null
 		],
 		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcanvas.h",
+			"MU",
+			"UZBZ344ZLF/moc_taskcanvas.cpp",
+			null
+		],
+		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcard.h",
 			"MU",
 			"UZBZ344ZLF/moc_taskcard.cpp",
@@ -455,6 +461,11 @@
 		],
 		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/task/task.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcanvas.cpp",
 			"MU",
 			null
 		],

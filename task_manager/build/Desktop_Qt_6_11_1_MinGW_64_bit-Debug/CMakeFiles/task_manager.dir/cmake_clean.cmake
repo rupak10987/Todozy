@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/task_manager.dir/task/task.cpp.obj.d"
   "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj"
+  "CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj.d"
   "CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj"
   "CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj.d"
   "CMakeFiles/task_manager_autogen.dir/AutogenUsed.txt"

@@ -418,6 +418,12 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcard.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -426,7 +432,6 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlabel.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
