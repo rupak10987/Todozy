@@ -129,6 +129,7 @@ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_
   C:/Qt/6.11.1/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/qyieldcpu.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
+  C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.11.1/mingw_64/include/QtGui/qbrush.h \

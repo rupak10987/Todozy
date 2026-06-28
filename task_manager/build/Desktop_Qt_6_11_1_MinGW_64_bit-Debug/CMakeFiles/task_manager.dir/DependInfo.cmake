@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "task_manager_autogen/timestamp" "custom" "task_manager_autogen/deps"
+  "E:/Projects/Task Manager QT/Todozy/task_manager/layout/tasklayoutengine.cpp" "CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj.d"
+  "E:/Projects/Task Manager QT/Todozy/task_manager/layoutconstant.cpp" "CMakeFiles/task_manager.dir/layoutconstant.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/layoutconstant.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/main.cpp" "CMakeFiles/task_manager.dir/main.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/main.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/mainwindow.cpp" "CMakeFiles/task_manager.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/mainwindow.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/navigator/tasknavigator.cpp" "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj.d"

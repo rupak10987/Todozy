@@ -424,6 +424,10 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layout/tasklayoutengine.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QRect \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QHash \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -437,4 +441,17 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qurl.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QScrollArea \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qscrollarea.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QGuiApplication \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QScreen \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qscreen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QRect \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QSize \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QSizeF \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QTransform \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qscreen_platform.h

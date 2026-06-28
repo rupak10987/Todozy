@@ -199,6 +199,54 @@ task_manager_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager_autogen.dir\build.make CMakeFiles/task_manager_autogen.dir/build
 .PHONY : task_manager_autogen/fast
 
+layout/tasklayoutengine.obj: layout/tasklayoutengine.cpp.obj
+.PHONY : layout/tasklayoutengine.obj
+
+# target to build an object file
+layout/tasklayoutengine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj
+.PHONY : layout/tasklayoutengine.cpp.obj
+
+layout/tasklayoutengine.i: layout/tasklayoutengine.cpp.i
+.PHONY : layout/tasklayoutengine.i
+
+# target to preprocess a source file
+layout/tasklayoutengine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.i
+.PHONY : layout/tasklayoutengine.cpp.i
+
+layout/tasklayoutengine.s: layout/tasklayoutengine.cpp.s
+.PHONY : layout/tasklayoutengine.s
+
+# target to generate assembly for a file
+layout/tasklayoutengine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.s
+.PHONY : layout/tasklayoutengine.cpp.s
+
+layoutconstant.obj: layoutconstant.cpp.obj
+.PHONY : layoutconstant.obj
+
+# target to build an object file
+layoutconstant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/layoutconstant.cpp.obj
+.PHONY : layoutconstant.cpp.obj
+
+layoutconstant.i: layoutconstant.cpp.i
+.PHONY : layoutconstant.i
+
+# target to preprocess a source file
+layoutconstant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/layoutconstant.cpp.i
+.PHONY : layoutconstant.cpp.i
+
+layoutconstant.s: layoutconstant.cpp.s
+.PHONY : layoutconstant.s
+
+# target to generate assembly for a file
+layoutconstant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/layoutconstant.cpp.s
+.PHONY : layoutconstant.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -382,6 +430,12 @@ help:
 	@echo ... task_manager_autogen
 	@echo ... task_manager_autogen_timestamp_deps
 	@echo ... task_manager
+	@echo ... layout/tasklayoutengine.obj
+	@echo ... layout/tasklayoutengine.i
+	@echo ... layout/tasklayoutengine.s
+	@echo ... layoutconstant.obj
+	@echo ... layoutconstant.i
+	@echo ... layoutconstant.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj"
+  "CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj.d"
+  "CMakeFiles/task_manager.dir/layoutconstant.cpp.obj"
+  "CMakeFiles/task_manager.dir/layoutconstant.cpp.obj.d"
   "CMakeFiles/task_manager.dir/main.cpp.obj"
   "CMakeFiles/task_manager.dir/main.cpp.obj.d"
   "CMakeFiles/task_manager.dir/mainwindow.cpp.obj"

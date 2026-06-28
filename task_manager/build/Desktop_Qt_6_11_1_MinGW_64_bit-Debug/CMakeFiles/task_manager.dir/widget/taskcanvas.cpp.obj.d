@@ -388,10 +388,14 @@ CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\widget\taskcard.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layout/tasklayoutengine.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QRect \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QHash

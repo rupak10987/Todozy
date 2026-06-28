@@ -342,6 +342,18 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/layout/tasklayoutengine.h",
+			"MU",
+			"TMD3PGXO7W/moc_tasklayoutengine.cpp",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/layoutconstant.h",
+			"MU",
+			"EWIEGA46WW/moc_layoutconstant.cpp",
+			null
+		],
+		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -444,6 +456,16 @@
 	"SETTINGS_FILE" : "E:/Projects/Task Manager QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/task_manager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/layout/tasklayoutengine.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/layoutconstant.cpp",
+			"MU",
+			null
+		],
 		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/main.cpp",
 			"MU",

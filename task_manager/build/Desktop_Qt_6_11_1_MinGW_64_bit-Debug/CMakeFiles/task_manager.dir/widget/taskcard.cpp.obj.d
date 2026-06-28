@@ -426,4 +426,10 @@ CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj: \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QColor

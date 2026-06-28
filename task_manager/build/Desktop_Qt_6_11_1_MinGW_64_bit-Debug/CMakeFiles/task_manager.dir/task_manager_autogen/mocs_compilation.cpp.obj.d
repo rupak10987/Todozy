@@ -404,6 +404,7 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_taskcard.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcard.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
