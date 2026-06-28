@@ -132,6 +132,7 @@ task_manager_autogen/timestamp: \
 	C:/Qt/6.11.1/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.11.1/mingw_64/include/QtCore/qyieldcpu.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
+	C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
 	C:/Qt/6.11.1/mingw_64/include/QtGui/qbrush.h \
@@ -598,6 +599,10 @@ task_manager_autogen/timestamp: \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/task_manager_autogen/moc_predefs.h \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layout/tasklayoutengine.cpp \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layout/tasklayoutengine.h \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.cpp \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/main.cpp \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.cpp \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.h \

@@ -180,6 +180,36 @@ CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\Task Manager QT\Todozy\task_manager\widget\taskcanvas.cpp" -o CMakeFiles\task_manager.dir\widget\taskcanvas.cpp.s
 
+CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj: CMakeFiles/task_manager.dir/flags.make
+CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj: CMakeFiles/task_manager.dir/includes_CXX.rsp
+CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj: E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layout/tasklayoutengine.cpp
+CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj: CMakeFiles/task_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Projects\Task Manager QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj -MF CMakeFiles\task_manager.dir\layout\tasklayoutengine.cpp.obj.d -o CMakeFiles\task_manager.dir\layout\tasklayoutengine.cpp.obj -c "E:\Projects\Task Manager QT\Todozy\task_manager\layout\tasklayoutengine.cpp"
+
+CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\Task Manager QT\Todozy\task_manager\layout\tasklayoutengine.cpp" > CMakeFiles\task_manager.dir\layout\tasklayoutengine.cpp.i
+
+CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\Task Manager QT\Todozy\task_manager\layout\tasklayoutengine.cpp" -o CMakeFiles\task_manager.dir\layout\tasklayoutengine.cpp.s
+
+CMakeFiles/task_manager.dir/layoutconstant.cpp.obj: CMakeFiles/task_manager.dir/flags.make
+CMakeFiles/task_manager.dir/layoutconstant.cpp.obj: CMakeFiles/task_manager.dir/includes_CXX.rsp
+CMakeFiles/task_manager.dir/layoutconstant.cpp.obj: E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.cpp
+CMakeFiles/task_manager.dir/layoutconstant.cpp.obj: CMakeFiles/task_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Projects\Task Manager QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/task_manager.dir/layoutconstant.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_manager.dir/layoutconstant.cpp.obj -MF CMakeFiles\task_manager.dir\layoutconstant.cpp.obj.d -o CMakeFiles\task_manager.dir\layoutconstant.cpp.obj -c "E:\Projects\Task Manager QT\Todozy\task_manager\layoutconstant.cpp"
+
+CMakeFiles/task_manager.dir/layoutconstant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task_manager.dir/layoutconstant.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\Task Manager QT\Todozy\task_manager\layoutconstant.cpp" > CMakeFiles\task_manager.dir\layoutconstant.cpp.i
+
+CMakeFiles/task_manager.dir/layoutconstant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_manager.dir/layoutconstant.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\Task Manager QT\Todozy\task_manager\layoutconstant.cpp" -o CMakeFiles\task_manager.dir\layoutconstant.cpp.s
+
 # Object files for target task_manager
 task_manager_OBJECTS = \
 "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj" \
@@ -188,7 +218,9 @@ task_manager_OBJECTS = \
 "CMakeFiles/task_manager.dir/task/task.cpp.obj" \
 "CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj" \
 "CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj" \
-"CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj"
+"CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj" \
+"CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj" \
+"CMakeFiles/task_manager.dir/layoutconstant.cpp.obj"
 
 # External object files for target task_manager
 task_manager_EXTERNAL_OBJECTS =
@@ -200,6 +232,8 @@ task_manager.exe: CMakeFiles/task_manager.dir/task/task.cpp.obj
 task_manager.exe: CMakeFiles/task_manager.dir/navigator/tasknavigator.cpp.obj
 task_manager.exe: CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj
 task_manager.exe: CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj
+task_manager.exe: CMakeFiles/task_manager.dir/layout/tasklayoutengine.cpp.obj
+task_manager.exe: CMakeFiles/task_manager.dir/layoutconstant.cpp.obj
 task_manager.exe: CMakeFiles/task_manager.dir/build.make
 task_manager.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a
 task_manager.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a
@@ -209,7 +243,7 @@ task_manager.exe: task_manager.exe.manifest
 task_manager.exe: CMakeFiles/task_manager.dir/linkLibs.rsp
 task_manager.exe: CMakeFiles/task_manager.dir/objects1.rsp
 task_manager.exe: CMakeFiles/task_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Projects\Task Manager QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable task_manager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Projects\Task Manager QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable task_manager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\task_manager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
