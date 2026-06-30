@@ -389,6 +389,49 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\YTDTVFEZVE/moc_clickablelabel.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/labels/clickablelabel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qevent.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qeventpoint.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qvector2d.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qvectornd.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpointingdevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qinputdevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qscreen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QList \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QRect \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QSize \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QSizeF \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QTransform \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qscreen_platform.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QColor \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextformat.h \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
@@ -404,14 +447,19 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_addbutton.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/addbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_breadcrumb.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/breadcrumb.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/labels/clickablelabel.h \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_taskcanvas.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_taskcard.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcard.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame

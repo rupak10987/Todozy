@@ -454,4 +454,16 @@ CMakeFiles/task_manager.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QSize \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QSizeF \
  C:/Qt/6.11.1/mingw_64/include/QtGui/QTransform \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qscreen_platform.h
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qscreen_platform.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/breadcrumb.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/labels/clickablelabel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qevent.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qeventpoint.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qvector2d.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qvectornd.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpointingdevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qinputdevice.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QColor

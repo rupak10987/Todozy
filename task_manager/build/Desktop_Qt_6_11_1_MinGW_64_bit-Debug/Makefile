@@ -415,6 +415,30 @@ widget/addbutton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/addbutton.cpp.s
 .PHONY : widget/addbutton.cpp.s
 
+widget/breadcrumb.obj: widget/breadcrumb.cpp.obj
+.PHONY : widget/breadcrumb.obj
+
+# target to build an object file
+widget/breadcrumb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.obj
+.PHONY : widget/breadcrumb.cpp.obj
+
+widget/breadcrumb.i: widget/breadcrumb.cpp.i
+.PHONY : widget/breadcrumb.i
+
+# target to preprocess a source file
+widget/breadcrumb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.i
+.PHONY : widget/breadcrumb.cpp.i
+
+widget/breadcrumb.s: widget/breadcrumb.cpp.s
+.PHONY : widget/breadcrumb.s
+
+# target to generate assembly for a file
+widget/breadcrumb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.s
+.PHONY : widget/breadcrumb.cpp.s
+
 widget/taskcanvas.obj: widget/taskcanvas.cpp.obj
 .PHONY : widget/taskcanvas.obj
 
@@ -505,6 +529,9 @@ help:
 	@echo ... widget/addbutton.obj
 	@echo ... widget/addbutton.i
 	@echo ... widget/addbutton.s
+	@echo ... widget/breadcrumb.obj
+	@echo ... widget/breadcrumb.i
+	@echo ... widget/breadcrumb.s
 	@echo ... widget/taskcanvas.obj
 	@echo ... widget/taskcanvas.i
 	@echo ... widget/taskcanvas.s
