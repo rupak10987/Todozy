@@ -73,9 +73,11 @@ MainWindow::MainWindow(QWidget *parent)
     scroll->setWidget(m_canvas);
     scroll->setWidgetResizable(false);
     setCentralWidget(scroll);
-    /*TaskNavigator* task_navigator = new TaskNavigator(this);
+    TaskNavigator* task_navigator = new TaskNavigator(this);
     task_navigator->setRoot(m_root);
-    QWidget *central = new QWidget(this);
+    connect(m_canvas, &TaskCanvas::navigateRequested, task_navigator, &TaskNavigator::navigateTo);
+     connect(task_navigator, &TaskNavigator::rootChanged, m_canvas, &TaskCanvas::setRoot);
+    /*QWidget *central = new QWidget(this);
     QVBoxLayout* vbox = new QVBoxLayout(central);
     QLabel *label = new QLabel;
     QPushButton* btn1 = new QPushButton("Go To T1");

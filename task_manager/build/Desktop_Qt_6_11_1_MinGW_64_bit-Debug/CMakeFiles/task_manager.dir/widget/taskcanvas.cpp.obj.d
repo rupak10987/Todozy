@@ -389,6 +389,8 @@ CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\widget\addbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QObject \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\widget\taskcard.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
@@ -398,4 +400,15 @@ CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layout/tasklayoutengine.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QRect \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QHash
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QHash \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QColor \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/dialogue/taskcreatedialogue.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qdeadlinetimer.h

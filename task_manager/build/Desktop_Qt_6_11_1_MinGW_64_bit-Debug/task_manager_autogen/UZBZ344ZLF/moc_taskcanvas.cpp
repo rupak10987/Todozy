@@ -38,10 +38,18 @@ template <> constexpr inline auto TaskCanvas::qt_create_metaobjectdata<qt_meta_t
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "TaskCanvas"
+        "TaskCanvas",
+        "navigateRequested",
+        "",
+        "Task*",
+        "task"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Signal 'navigateRequested'
+        QtMocHelpers::SignalData<void(Task *)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 3, 4 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -63,10 +71,16 @@ Q_CONSTINIT const QMetaObject TaskCanvas::staticMetaObject = { {
 void TaskCanvas::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<TaskCanvas *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->navigateRequested((*reinterpret_cast<std::add_pointer_t<Task*>>(_a[1]))); break;
+        default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (TaskCanvas::*)(Task * )>(_a, &TaskCanvas::navigateRequested, 0))
+            return;
+    }
 }
 
 const QMetaObject *TaskCanvas::metaObject() const
@@ -85,6 +99,24 @@ void *TaskCanvas::qt_metacast(const char *_clname)
 int TaskCanvas::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 1;
+    }
     return _id;
+}
+
+// SIGNAL 0
+void TaskCanvas::navigateRequested(Task * _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }
 QT_WARNING_POP

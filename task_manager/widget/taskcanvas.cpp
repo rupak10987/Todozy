@@ -1,7 +1,11 @@
 #include"./taskcanvas.h"
+#include "addbutton.h"
 #include "taskcard.h"
 #include"../task/task.h"
 #include "../layout/tasklayoutengine.h"
+#include "../layoutconstant.h"
+#include "../dialogue/taskcreatedialogue.h"
+#include <QTimer>
 TaskCanvas::TaskCanvas(QWidget* parent):QWidget(parent)
 {
     m_root = nullptr;
@@ -10,20 +14,34 @@ TaskCanvas::TaskCanvas(QWidget* parent):QWidget(parent)
 
 void TaskCanvas::setRoot(Task* task)
 {
-    if(!task)
+    if (!task || task == m_root || task->children.isEmpty())
         return;
+
     m_root = task;
-    rebuild();
+
+    QTimer::singleShot(0, this, [this]() {
+        rebuild();
+    });
 }
 
 void TaskCanvas::rebuild()
 {
+    for(AddButton* b : m_addButtons)
+    {
+        b->hide();
+        b->deleteLater();
+    }
+
+    m_addButtons.clear();
     for(TaskCard *card : m_cards)
     {
-        delete card;
+        card->hide();
+        card->deleteLater();
     }
     m_cards.clear();
     auto layout = m_engine->calculate(m_root);
+    if(layout.isEmpty())
+        return;
     for(auto it = layout.begin(); it!= layout.end(); ++it)
     {
         Task* task = it.key();
@@ -32,10 +50,63 @@ void TaskCanvas::rebuild()
         card->setGeometry(geo);
         m_cards.insert(task, card);
         card->show();
+        connect(card, &TaskCard::doubleClicked, this, &TaskCanvas::onTaskDoubleClicked);
+        if(!task->children.empty())
+        {
+            AddButton* btn = new AddButton(task,this);
+            m_addButtons.push_back(btn);
+            connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
+            QRect rect = layout[task->children.last()];
+            btn->move(rect.right() + LayoutConstant::ButtonOffset, rect.y() + LayoutConstant::CardHeight/2- btn->height()/2);
+            btn->update();
+            btn->show();
+        }
+        else if(task->parent == m_root)//only two level
+        {
+            AddButton* btn = new AddButton(task,this);
+            m_addButtons.push_back(btn);
+            connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
+            QRect rect = layout[task];
+            btn->move(rect.right() + LayoutConstant::ButtonOffset, rect.y() + LayoutConstant::CardHeight/2- btn->height()/2);
+            btn->update();
+            btn->show();
+        }
     }
+
+    AddButton* btn = new AddButton(m_root,this);
+    m_addButtons.push_back(btn);
+    Task* lastChild = m_root->children.last();
+    connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
+    QRect rect = layout[lastChild];
+    // btn->move(100,100);
+    btn->move(rect.x() + LayoutConstant::CardWidth/2- btn->width()/2,rect.bottom() + LayoutConstant::ButtonOffset);
+    btn->update();
+    btn->show();
     update();
 }
+void TaskCanvas::onAddButtonClicked(Task* parentTask)
+{
+    TaskCreateDialog dialog(this);
 
+    if(dialog.exec()!=QDialog::Accepted)
+        return;
+
+    Task* task = new Task(dialog.taskName()==""?"Untitled":dialog.taskName());
+
+    task->priority = dialog.priority();
+
+    task->status = dialog.status();
+
+    task->duration = dialog.duration();
+
+    parentTask->addChild(task);
+
+    rebuild();
+}
+void TaskCanvas::onTaskDoubleClicked(Task* task)
+{
+    emit navigateRequested(task);
+}
 void TaskCanvas::paintEvent(QPaintEvent* event)
 {
     QWidget::paintEvent(event);

@@ -16,17 +16,6 @@ TaskCard::TaskCard(Task* task, QWidget* parent):QFrame(parent),m_task(task)
 void TaskCard::buildUi()
 {
     update();
-    // setFrameShape(QFrame::Box);
-    // setMinimumSize(180,120);
-    // QVBoxLayout* layout = new QVBoxLayout(this);
-    // m_nameLabel = new QLabel(m_task->name);
-    // m_priorityLabel = new QLabel("Priority: " + m_task->priority);
-    // m_durationLabel = new QLabel("Duration: " + m_task->duration);
-    // m_statusLabel = new QLabel("Status: " + m_task->status);
-    // layout->addWidget(m_nameLabel);
-    // layout->addWidget(m_priorityLabel);
-    // layout->addWidget(m_durationLabel);
-    // layout->addWidget(m_statusLabel);
 }
 Task* TaskCard::task() const
 {
@@ -36,9 +25,8 @@ Task* TaskCard::task() const
 void TaskCard::mouseDoubleClickEvent(
     QMouseEvent* event)
 {
+     QFrame::mouseDoubleClickEvent(event);
     emit doubleClicked(m_task);
-
-    QFrame::mouseDoubleClickEvent(event);
 }
 void TaskCard::enterEvent(QEnterEvent*)
 {

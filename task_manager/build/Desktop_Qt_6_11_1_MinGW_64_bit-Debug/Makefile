@@ -199,6 +199,30 @@ task_manager_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager_autogen.dir\build.make CMakeFiles/task_manager_autogen.dir/build
 .PHONY : task_manager_autogen/fast
 
+dialogue/taskcreatedialogue.obj: dialogue/taskcreatedialogue.cpp.obj
+.PHONY : dialogue/taskcreatedialogue.obj
+
+# target to build an object file
+dialogue/taskcreatedialogue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/dialogue/taskcreatedialogue.cpp.obj
+.PHONY : dialogue/taskcreatedialogue.cpp.obj
+
+dialogue/taskcreatedialogue.i: dialogue/taskcreatedialogue.cpp.i
+.PHONY : dialogue/taskcreatedialogue.i
+
+# target to preprocess a source file
+dialogue/taskcreatedialogue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/dialogue/taskcreatedialogue.cpp.i
+.PHONY : dialogue/taskcreatedialogue.cpp.i
+
+dialogue/taskcreatedialogue.s: dialogue/taskcreatedialogue.cpp.s
+.PHONY : dialogue/taskcreatedialogue.s
+
+# target to generate assembly for a file
+dialogue/taskcreatedialogue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/dialogue/taskcreatedialogue.cpp.s
+.PHONY : dialogue/taskcreatedialogue.cpp.s
+
 layout/tasklayoutengine.obj: layout/tasklayoutengine.cpp.obj
 .PHONY : layout/tasklayoutengine.obj
 
@@ -367,6 +391,30 @@ task_manager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.s
 .PHONY : task_manager_autogen/mocs_compilation.cpp.s
 
+widget/addbutton.obj: widget/addbutton.cpp.obj
+.PHONY : widget/addbutton.obj
+
+# target to build an object file
+widget/addbutton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/addbutton.cpp.obj
+.PHONY : widget/addbutton.cpp.obj
+
+widget/addbutton.i: widget/addbutton.cpp.i
+.PHONY : widget/addbutton.i
+
+# target to preprocess a source file
+widget/addbutton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/addbutton.cpp.i
+.PHONY : widget/addbutton.cpp.i
+
+widget/addbutton.s: widget/addbutton.cpp.s
+.PHONY : widget/addbutton.s
+
+# target to generate assembly for a file
+widget/addbutton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_manager.dir\build.make CMakeFiles/task_manager.dir/widget/addbutton.cpp.s
+.PHONY : widget/addbutton.cpp.s
+
 widget/taskcanvas.obj: widget/taskcanvas.cpp.obj
 .PHONY : widget/taskcanvas.obj
 
@@ -430,6 +478,9 @@ help:
 	@echo ... task_manager_autogen
 	@echo ... task_manager_autogen_timestamp_deps
 	@echo ... task_manager
+	@echo ... dialogue/taskcreatedialogue.obj
+	@echo ... dialogue/taskcreatedialogue.i
+	@echo ... dialogue/taskcreatedialogue.s
 	@echo ... layout/tasklayoutengine.obj
 	@echo ... layout/tasklayoutengine.i
 	@echo ... layout/tasklayoutengine.s
@@ -451,6 +502,9 @@ help:
 	@echo ... task_manager_autogen/mocs_compilation.obj
 	@echo ... task_manager_autogen/mocs_compilation.i
 	@echo ... task_manager_autogen/mocs_compilation.s
+	@echo ... widget/addbutton.obj
+	@echo ... widget/addbutton.i
+	@echo ... widget/addbutton.s
 	@echo ... widget/taskcanvas.obj
 	@echo ... widget/taskcanvas.i
 	@echo ... widget/taskcanvas.s

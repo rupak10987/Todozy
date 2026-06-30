@@ -19,6 +19,11 @@ QColor LayoutConstant::StatusPending    = QColor(120, 120, 120);
 QColor LayoutConstant::StatusInProgress = QColor(33, 150, 243);
 QColor LayoutConstant::StatusDone       = QColor(76, 175, 80);
 
+// ===================== Add Button =====================
+QColor LayoutConstant::TextColor    = QColor(120, 120, 120);
+QColor LayoutConstant::AccentColor = QColor(69, 72, 247);
+QColor LayoutConstant::SurfaceColor       = QColor(44, 44, 44);
+
 // ===================== Icons =====================
 QString LayoutConstant::IconEdit   = ":/icons/edit.svg";
 QString LayoutConstant::IconDelete = ":/icons/delete.svg";
