@@ -35,6 +35,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         layout/tasklayoutengine.cpp
         layoutconstant.h
         layoutconstant.cpp
+        widget/addbutton.h
+        widget/addbutton.cpp
+        dialogue/taskcreatedialogue.h
+        dialogue/taskcreatedialogue.cpp
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET task_manager APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

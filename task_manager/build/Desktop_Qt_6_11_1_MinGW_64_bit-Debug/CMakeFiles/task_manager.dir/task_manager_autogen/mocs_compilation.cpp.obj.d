@@ -1,9 +1,9 @@
 CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\mocs_compilation.cpp \
- E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\3JB3KOQRVQ/moc_taskcreatedialogue.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/dialogue/taskcreatedialogue.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qglobal.h \
@@ -386,20 +386,26 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/mainwindow.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\RU47RH5TZY/moc_tasknavigator.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/navigator/tasknavigator.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QObject \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_addbutton.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/addbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_taskcanvas.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.11.1/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \

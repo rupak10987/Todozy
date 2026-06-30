@@ -342,6 +342,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/dialogue/taskcreatedialogue.h",
+			"MU",
+			"3JB3KOQRVQ/moc_taskcreatedialogue.cpp",
+			null
+		],
+		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/layout/tasklayoutengine.h",
 			"MU",
 			"TMD3PGXO7W/moc_tasklayoutengine.cpp",
@@ -369,6 +375,12 @@
 			"E:/Projects/Task Manager QT/Todozy/task_manager/task/task.h",
 			"MU",
 			"FNLYMPYW64/moc_task.cpp",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/addbutton.h",
+			"MU",
+			"UZBZ344ZLF/moc_addbutton.cpp",
 			null
 		],
 		[
@@ -457,6 +469,11 @@
 	"SOURCES" : 
 	[
 		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/dialogue/taskcreatedialogue.cpp",
+			"MU",
+			null
+		],
+		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/layout/tasklayoutengine.cpp",
 			"MU",
 			null
@@ -483,6 +500,11 @@
 		],
 		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/task/task.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/addbutton.cpp",
 			"MU",
 			null
 		],

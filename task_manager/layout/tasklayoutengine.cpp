@@ -10,7 +10,7 @@ QHash<Task*, QRect> TaskLayoutEngine::calculate(Task* root)
 {
     QHash<Task*, QRect> layout;
 
-    if(root == nullptr)
+    if(root == nullptr || root->children.isEmpty())
         return layout;
 
     layoutChildren(root, layout);

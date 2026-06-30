@@ -40,9 +40,14 @@ public:
     static QString IconEdit;
     static QString IconDelete;
     static QString IconAdd;
-
+    // ===================== Add Button =====================
+    static constexpr int ButtonOffset = 25;
+    static QColor TextColor;
+    static QColor AccentColor;
+    static QColor SurfaceColor;
     // ===================== Helpers =====================
     static QColor priorityColor(const QString& p);
     static QColor statusColor(const QString& s);
+
 };
 #endif // LAYOUTCONSTANT_H

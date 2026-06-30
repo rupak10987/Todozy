@@ -1,0 +1,108 @@
+QDialog
+{
+    background: #21263A;
+    border: 1px solid #2E3450;
+    border-radius: 12px;
+}
+/* ---------- Labels ---------- */
+
+QLabel
+{
+    color: #6B7280;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background: transparent;
+}
+
+/* ---------- Text Fields ---------- */
+
+QLineEdit,
+QComboBox
+{
+    background: #1A1D27;
+    color: #E8EAF6;
+
+    border: 1px solid #2E3450;
+    border-radius: 6px;
+
+    padding: 8px;
+
+    font-size: 13px;
+}
+
+QLineEdit:focus,
+QComboBox:focus
+{
+    border: 1px solid #5C6EFF;
+}
+
+/* ---------- ComboBox ---------- */
+
+QComboBox::drop-down
+{
+    border: none;
+    width: 22px;
+}
+
+QComboBox::down-arrow
+{
+    image: none;
+}
+
+QComboBox QAbstractItemView
+{
+    background: #21263A;
+
+    color: #E8EAF6;
+
+    border: 1px solid #2E3450;
+
+    selection-background-color: #5C6EFF;
+
+    outline: none;
+}
+
+/* ---------- Push Buttons ---------- */
+
+QPushButton
+{
+    background: #5C6EFF;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    padding: 8px 18px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+QPushButton:hover
+{
+    background: #7C8BFF;
+}
+
+QPushButton:pressed
+{
+    background: #4857DD;
+}
+
+/* ---------- Tooltips ---------- */
+
+QToolTip
+{
+    background: #21263A;
+
+    color: #E8EAF6;
+
+    border: 1px solid #2E3450;
+
+    border-radius: 4px;
+
+    padding: 4px;
+}
