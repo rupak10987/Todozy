@@ -14,7 +14,7 @@ TaskCanvas::TaskCanvas(QWidget* parent):QWidget(parent)
 
 void TaskCanvas::setRoot(Task* task)
 {
-    if (!task || task == m_root || task->children.isEmpty())
+    if (!task || task == m_root)
         return;
 
     m_root = task;
@@ -41,7 +41,17 @@ void TaskCanvas::rebuild()
     m_cards.clear();
     auto layout = m_engine->calculate(m_root);
     if(layout.isEmpty())
+    {
+        AddButton* btn = new AddButton(m_root,this);
+        m_addButtons.push_back(btn);
+        connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
+        QRect rect = QRect(LayoutConstant::TopMargin/2,LayoutConstant::LeftMargin/2,btn->width()/2,btn->height()/2);
+        btn->move(rect.right() + LayoutConstant::ButtonOffset, rect.y() + LayoutConstant::CardHeight/2- btn->height()/2);
+        btn->update();
+        btn->show();
+        update();
         return;
+    }
     for(auto it = layout.begin(); it!= layout.end(); ++it)
     {
         Task* task = it.key();
