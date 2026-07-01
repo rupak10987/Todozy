@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/Projects/Task Manager QT/Todozy/task_manager/task/task.cpp" "CMakeFiles/task_manager.dir/task/task.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/task/task.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/task_manager_autogen/mocs_compilation.cpp" "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/widget/addbutton.cpp" "CMakeFiles/task_manager.dir/widget/addbutton.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/widget/addbutton.cpp.obj.d"
+  "E:/Projects/Task Manager QT/Todozy/task_manager/widget/breadcrumb.cpp" "CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcanvas.cpp" "CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj.d"
   "E:/Projects/Task Manager QT/Todozy/task_manager/widget/taskcard.cpp" "CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj" "gcc" "CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj.d"
   )

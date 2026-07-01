@@ -39,6 +39,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         widget/addbutton.cpp
         dialogue/taskcreatedialogue.h
         dialogue/taskcreatedialogue.cpp
+        widget/breadcrumb.h
+        widget/breadcrumb.cpp
+        labels/clickablelabel.h
+
 
     )
 # Define target properties for Android with Qt 6 as:

@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/task_manager.dir/widget/addbutton.cpp.obj"
   "CMakeFiles/task_manager.dir/widget/addbutton.cpp.obj.d"
+  "CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.obj"
+  "CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.obj.d"
   "CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj"
   "CMakeFiles/task_manager.dir/widget/taskcanvas.cpp.obj.d"
   "CMakeFiles/task_manager.dir/widget/taskcard.cpp.obj"

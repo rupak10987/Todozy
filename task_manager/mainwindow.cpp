@@ -12,6 +12,7 @@
 #include <QScrollArea>
 #include <QGuiApplication>
 #include <QScreen>
+#include "./widget/breadcrumb.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -19,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     m_root = new Task("root");
-    m_root->name = "Task1";
+    m_root->name = "root";
     m_root->priority = "High";
     m_root->duration = "20 mins";
     m_root->status = "In Progress";
@@ -53,47 +54,32 @@ MainWindow::MainWindow(QWidget *parent)
     t12->duration = "1 hours";
     t12->status = "Done";
     t1->addChild(t12);
-    TaskLayoutEngine* engine = new TaskLayoutEngine();
-    auto layout = engine->calculate(m_root);
-    for(auto it = layout.begin(); it != layout.end(); ++it)
-    {
-        qDebug()
-        << it.key()->name
-        << it.value();
-    }
     TaskCanvas* m_canvas = new TaskCanvas;
-    m_canvas->setRoot(m_root);
+    m_canvas->setRoot(t11);
+
+    TaskNavigator* task_navigator = new TaskNavigator(this);
+    task_navigator->setRoot(t11);
+    connect(m_canvas, &TaskCanvas::navigateRequested, task_navigator, &TaskNavigator::navigateTo);//canvas to navigator
+    connect(task_navigator, &TaskNavigator::rootChanged, m_canvas, &TaskCanvas::setRoot);//navigator to canvas
 
     QScreen* screen = QGuiApplication::primaryScreen();
     QRect screenGeometry = screen->availableGeometry();   // excludes taskbar
     m_canvas->resize(screenGeometry.size());
 
-    qDebug() << m_canvas->size();
     QScrollArea* scroll = new QScrollArea(this);
     scroll->setWidget(m_canvas);
     scroll->setWidgetResizable(false);
-    setCentralWidget(scroll);
-    TaskNavigator* task_navigator = new TaskNavigator(this);
-    task_navigator->setRoot(m_root);
-    connect(m_canvas, &TaskCanvas::navigateRequested, task_navigator, &TaskNavigator::navigateTo);
-     connect(task_navigator, &TaskNavigator::rootChanged, m_canvas, &TaskCanvas::setRoot);
-    /*QWidget *central = new QWidget(this);
-    QVBoxLayout* vbox = new QVBoxLayout(central);
-    QLabel *label = new QLabel;
-    QPushButton* btn1 = new QPushButton("Go To T1");
-    QPushButton* btn2 = new QPushButton("Go to T2");
-    QPushButton* btn3 = new QPushButton("Go Up");
-    vbox->addWidget(card);
-    vbox->addWidget(label);
-    vbox->addWidget(btn1);
-    vbox->addWidget(btn2);
-    vbox->addWidget(btn3);
-    setCentralWidget(central);
-    connect(task_navigator, &TaskNavigator::rootChanged, this, [label](Task* task){label->setText(task->path());});//connecting the label to reflect current root
-    connect(btn1, &QPushButton::clicked, this, [task_navigator, t1](){task_navigator->navigateTo(t1);});
-    connect(btn2, &QPushButton::clicked, task_navigator, [task_navigator, t1](){task_navigator->navigateTo(t1);});
-    connect(btn3, &QPushButton::clicked, task_navigator, &TaskNavigator::goUp);
-    task_navigator->setRoot(m_root);*/
+
+    BreadCrumb* m_breadCrumb = new BreadCrumb(this, t11);
+    connect(m_breadCrumb, &BreadCrumb::navigateTo, task_navigator,&TaskNavigator::navigateTo);//breadcrumb to navigator
+    connect(task_navigator,&TaskNavigator::rootChanged,m_breadCrumb, &BreadCrumb::setTask);//navigatorto breadcrumb
+    QWidget* main_widget = new QWidget(this);
+    QVBoxLayout* main_layout = new QVBoxLayout(this);
+    main_widget->setLayout(main_layout);
+    main_layout->addWidget(m_breadCrumb);
+    main_layout->addWidget(scroll);
+    setCentralWidget(main_widget);
+
 }
 
 MainWindow::~MainWindow()

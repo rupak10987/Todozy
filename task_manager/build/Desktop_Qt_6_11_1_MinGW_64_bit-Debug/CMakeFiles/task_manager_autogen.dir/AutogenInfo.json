@@ -348,6 +348,12 @@
 			null
 		],
 		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/labels/clickablelabel.h",
+			"MU",
+			"YTDTVFEZVE/moc_clickablelabel.cpp",
+			null
+		],
+		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/layout/tasklayoutengine.h",
 			"MU",
 			"TMD3PGXO7W/moc_tasklayoutengine.cpp",
@@ -381,6 +387,12 @@
 			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/addbutton.h",
 			"MU",
 			"UZBZ344ZLF/moc_addbutton.cpp",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/breadcrumb.h",
+			"MU",
+			"UZBZ344ZLF/moc_breadcrumb.cpp",
 			null
 		],
 		[
@@ -505,6 +517,11 @@
 		],
 		[
 			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/addbutton.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Projects/Task Manager QT/Todozy/task_manager/widget/breadcrumb.cpp",
 			"MU",
 			null
 		],
