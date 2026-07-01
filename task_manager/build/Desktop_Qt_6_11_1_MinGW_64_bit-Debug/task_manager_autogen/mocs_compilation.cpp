@@ -4,6 +4,7 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "RU47RH5TZY/moc_tasknavigator.cpp"
 #include "UZBZ344ZLF/moc_addbutton.cpp"
+#include "UZBZ344ZLF/moc_backbutton.cpp"
 #include "UZBZ344ZLF/moc_breadcrumb.cpp"
 #include "UZBZ344ZLF/moc_taskcanvas.cpp"
 #include "UZBZ344ZLF/moc_taskcard.cpp"

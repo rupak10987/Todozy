@@ -42,6 +42,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         widget/breadcrumb.h
         widget/breadcrumb.cpp
         labels/clickablelabel.h
+        widget/backbutton.h
 
 
     )

@@ -435,4 +435,8 @@ CMakeFiles/task_manager.dir/widget/breadcrumb.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtCore/Qstring \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVector \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qvector.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QHBoxLayout
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QHBoxLayout \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/backbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h

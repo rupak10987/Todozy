@@ -447,6 +447,12 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_addbutton.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/addbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_backbutton.cpp \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/backbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+ E:/Projects/Task\ Manager\ QT/Todozy/task_manager/layoutconstant.h \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_breadcrumb.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/breadcrumb.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
@@ -455,7 +461,6 @@ CMakeFiles/task_manager.dir/task_manager_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/labels/clickablelabel.h \
  E:\Projects\Task\ Manager\ QT\Todozy\task_manager\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\task_manager_autogen\UZBZ344ZLF/moc_taskcanvas.cpp \
  E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.h \

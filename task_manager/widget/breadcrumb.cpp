@@ -1,7 +1,7 @@
 #include "./breadcrumb.h"
 #include "../task/task.h"
 #include <QHBoxLayout>
-
+#include "../widget/backbutton.h"
 
 BreadCrumb::BreadCrumb(QWidget* parent, Task* task):QWidget(parent),m_task(task)
 {
@@ -49,7 +49,14 @@ void BreadCrumb::buildBreadCrumb()
     connect(root_button, &ClickableLabel::labelClicked, this, [=](){emit navigateTo(m_task);});
     m_buttons.push_back(root_button);
     m_layout->addWidget(root_button);
-     m_layout->addStretch(1);
+
+    BackButton* m_back_button = new BackButton("👈",this);
+    Task* prev_task = m_task->parent;
+    connect(m_back_button, &BackButton::clicked, this, [=](){emit navigateTo(prev_task);});
+    m_back_button->setFixedWidth(20);
+    m_back_button->setFixedHeight(20);
+    m_layout->addWidget(m_back_button);
+    m_layout->addStretch(1);
     this->show();
     return;
 }

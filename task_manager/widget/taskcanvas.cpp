@@ -6,6 +6,7 @@
 #include "../layoutconstant.h"
 #include "../dialogue/taskcreatedialogue.h"
 #include <QTimer>
+
 TaskCanvas::TaskCanvas(QWidget* parent):QWidget(parent)
 {
     m_root = nullptr;
@@ -40,7 +41,7 @@ void TaskCanvas::rebuild()
     }
     m_cards.clear();
     auto layout = m_engine->calculate(m_root);
-    if(layout.isEmpty())
+    if(layout.isEmpty() )
     {
         AddButton* btn = new AddButton(m_root,this);
         m_addButtons.push_back(btn);
@@ -61,23 +62,20 @@ void TaskCanvas::rebuild()
         m_cards.insert(task, card);
         card->show();
         connect(card, &TaskCard::doubleClicked, this, &TaskCanvas::onTaskDoubleClicked);
-        if(!task->children.empty())
+
+        // Only root-level children get an inline "add" button in this view —
+        // deeper tasks' children aren't laid out here, so we can't safely
+        // reference their child rects.
+        if(task->parent == m_root)
         {
             AddButton* btn = new AddButton(task,this);
             m_addButtons.push_back(btn);
             connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
-            QRect rect = layout[task->children.last()];
-            btn->move(rect.right() + LayoutConstant::ButtonOffset, rect.y() + LayoutConstant::CardHeight/2- btn->height()/2);
-            btn->update();
-            btn->show();
-        }
-        else if(task->parent == m_root)//only two level
-        {
-            AddButton* btn = new AddButton(task,this);
-            m_addButtons.push_back(btn);
-            connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
-            QRect rect = layout[task];
-            btn->move(rect.right() + LayoutConstant::ButtonOffset, rect.y() + LayoutConstant::CardHeight/2- btn->height()/2);
+
+            QRect rect = task->children.empty() ? layout[task]
+                                                : layout[task->children.last()];
+            btn->move(rect.right() + LayoutConstant::ButtonOffset,
+                      rect.y() + LayoutConstant::CardHeight/2 - btn->height()/2);
             btn->update();
             btn->show();
         }
@@ -88,7 +86,6 @@ void TaskCanvas::rebuild()
     Task* lastChild = m_root->children.last();
     connect(btn,&AddButton::clicked,this,&TaskCanvas::onAddButtonClicked);
     QRect rect = layout[lastChild];
-    // btn->move(100,100);
     btn->move(rect.x() + LayoutConstant::CardWidth/2- btn->width()/2,rect.bottom() + LayoutConstant::ButtonOffset);
     btn->update();
     btn->show();

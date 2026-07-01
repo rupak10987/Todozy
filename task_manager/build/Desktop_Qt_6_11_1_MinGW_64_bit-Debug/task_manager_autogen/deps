@@ -196,6 +196,7 @@ task_manager_autogen/timestamp: \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 	C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
@@ -655,6 +656,7 @@ task_manager_autogen/timestamp: \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/task/task.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/addbutton.cpp \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/addbutton.h \
+	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/backbutton.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/breadcrumb.cpp \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/breadcrumb.h \
 	E:/Projects/Task\ Manager\ QT/Todozy/task_manager/widget/taskcanvas.cpp \
